@@ -1,0 +1,31 @@
+{
+  "organisation_number": "810034882",
+  "description": "Refresh replay: t0 is Brreg's live data for SANDNES ELEKTRISKE AS saved 2026-09-29 (birth dates replaced by a placeholder); t1 is a synthetic edit of t0 with fictional values (new CEO, new address, employee count, a new 2026 filing, one workplace closed and one opened). Pass 3 replays t1 unchanged and must report zero changes.",
+  "passes": [
+    {
+      "label": "t0: saved snapshot",
+      "dir": "t0",
+      "retrieved_at": "2026-09-29T08:20:00Z"
+    },
+    {
+      "label": "t1: edited snapshot",
+      "dir": "t1",
+      "retrieved_at": "2026-10-06T08:20:00Z"
+    },
+    {
+      "label": "t1 again: identical snapshot",
+      "dir": "t1",
+      "retrieved_at": "2026-10-13T08:20:00Z"
+    }
+  ],
+  "expected_pass2_change_types": [
+    "changed_address",
+    "changed_employees",
+    "changed_filing_history",
+    "closed_location",
+    "new_filing",
+    "new_location",
+    "new_role",
+    "removed_role"
+  ]
+}

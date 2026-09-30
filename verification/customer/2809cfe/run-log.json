@@ -1,0 +1,163 @@
+[
+  {
+    "entry": "empty-start",
+    "label": "desktop",
+    "noHorizScroll": true,
+    "consoleErrors": []
+  },
+  {
+    "entry": "validation-nondigits",
+    "label": "desktop",
+    "hasErrorText": true
+  },
+  {
+    "entry": "validation-wronglength",
+    "label": "desktop",
+    "hasErrorText": true
+  },
+  {
+    "entry": "validation-checkdigit",
+    "label": "desktop",
+    "hasErrorText": true
+  },
+  {
+    "entry": "available-equinor",
+    "label": "desktop",
+    "hasName": true,
+    "url": "http://127.0.0.1:8000/company/923609016"
+  },
+  {
+    "entry": "claim-count-equinor",
+    "label": "desktop",
+    "count": 95
+  },
+  {
+    "entry": "source-links-equinor",
+    "label": "desktop",
+    "count": 96
+  },
+  {
+    "entry": "sections-summary-check",
+    "label": "desktop",
+    "hasSummary": true,
+    "hasUnknown": true,
+    "hasChanged": true
+  },
+  {
+    "entry": "not-available-nosuchcompany",
+    "label": "desktop",
+    "hasMessage": true
+  },
+  {
+    "entry": "bankrupt-company",
+    "label": "desktop",
+    "hasBankruptcyMention": true
+  },
+  {
+    "entry": "compare-view",
+    "label": "desktop",
+    "hasEquinor": true,
+    "hasSandnes": true
+  },
+  {
+    "entry": "batch-browser",
+    "label": "desktop",
+    "rowCountHint": 213
+  },
+  {
+    "entry": "keyboard-nav-first-tab",
+    "label": "desktop",
+    "focused": "BUTTON:"
+  },
+  {
+    "entry": "final-console-errors",
+    "label": "desktop",
+    "consoleErrors": []
+  },
+  {
+    "entry": "empty-start",
+    "label": "phone",
+    "noHorizScroll": true,
+    "consoleErrors": []
+  },
+  {
+    "entry": "validation-nondigits",
+    "label": "phone",
+    "hasErrorText": true
+  },
+  {
+    "entry": "validation-wronglength",
+    "label": "phone",
+    "hasErrorText": true
+  },
+  {
+    "entry": "validation-checkdigit",
+    "label": "phone",
+    "hasErrorText": true
+  },
+  {
+    "entry": "available-equinor",
+    "label": "phone",
+    "hasName": true,
+    "url": "http://127.0.0.1:8000/company/923609016"
+  },
+  {
+    "entry": "claim-count-equinor",
+    "label": "phone",
+    "count": 95
+  },
+  {
+    "entry": "source-links-equinor",
+    "label": "phone",
+    "count": 96
+  },
+  {
+    "entry": "sections-summary-check",
+    "label": "phone",
+    "hasSummary": true,
+    "hasUnknown": true,
+    "hasChanged": true
+  },
+  {
+    "entry": "not-available-nosuchcompany",
+    "label": "phone",
+    "hasMessage": true
+  },
+  {
+    "entry": "bankrupt-company",
+    "label": "phone",
+    "hasBankruptcyMention": true
+  },
+  {
+    "entry": "compare-view",
+    "label": "phone",
+    "hasEquinor": true,
+    "hasSandnes": true
+  },
+  {
+    "entry": "batch-browser",
+    "label": "phone",
+    "rowCountHint": 213
+  },
+  {
+    "entry": "tap-targets-under-40px",
+    "label": "phone",
+    "bad": [
+      {
+        "tag": "INPUT",
+        "text": "",
+        "h": 21
+      }
+    ]
+  },
+  {
+    "entry": "keyboard-nav-first-tab",
+    "label": "phone",
+    "focused": "BUTTON:"
+  },
+  {
+    "entry": "final-console-errors",
+    "label": "phone",
+    "consoleErrors": []
+  }
+]

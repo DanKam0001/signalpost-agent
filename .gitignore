@@ -1,0 +1,13 @@
+.hq/prompts/
+.hq/system-*.md
+.hq/error-*.log
+hq_status.json
+STOP
+kickoff/
+node_modules/
+__pycache__/
+.venv/
+*.egg-info/
+.pytest_cache/
+/data/
+/out/

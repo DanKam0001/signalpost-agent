@@ -1,0 +1,176 @@
+{
+  "input_count": 100,
+  "envelope_count": 100,
+  "count_matches_input": true,
+  "state_counts": {
+    "available": 100,
+    "not_available": 0,
+    "blocked": 0,
+    "not_applicable": 0,
+    "ambiguous": 0,
+    "failed": 0
+  },
+  "section_state_counts": {
+    "legal_identity_and_brand": {
+      "available": 100
+    },
+    "annual_accounts": {
+      "available": 100
+    },
+    "leadership_and_workplaces": {
+      "available": 100
+    },
+    "website_and_profiles": {
+      "not_available": 81,
+      "failed": 19
+    },
+    "hiring_and_activity": {
+      "not_available": 81,
+      "failed": 19
+    },
+    "evidence_and_availability": {
+      "available": 100
+    },
+    "refresh_and_changes": {
+      "available": 100
+    }
+  },
+  "field_coverage": {
+    "identity (registry)": {
+      "companies": 100,
+      "company_share": 1.0,
+      "facts": 401
+    },
+    "employees (registry)": {
+      "companies": 15,
+      "company_share": 0.15,
+      "facts": 15
+    },
+    "latest accounts": {
+      "companies": 100,
+      "company_share": 1.0,
+      "facts": 277
+    },
+    "filing history": {
+      "companies": 22,
+      "company_share": 0.22,
+      "facts": 22
+    },
+    "leadership (roles)": {
+      "companies": 100,
+      "company_share": 1.0,
+      "facts": 358
+    },
+    "workplaces": {
+      "companies": 100,
+      "company_share": 1.0,
+      "facts": 100
+    },
+    "official website": {
+      "companies": 10,
+      "company_share": 0.1,
+      "facts": 10
+    },
+    "company description": {
+      "companies": 0,
+      "company_share": 0.0,
+      "facts": 0
+    },
+    "social profiles": {
+      "companies": 0,
+      "company_share": 0.0,
+      "facts": 0
+    },
+    "job postings": {
+      "companies": 0,
+      "company_share": 0.0,
+      "facts": 0
+    },
+    "dated activity": {
+      "companies": 0,
+      "company_share": 0.0,
+      "facts": 0
+    }
+  },
+  "evidence": {
+    "available_claims": 3814,
+    "share_with_source_url_and_retrieved_at": 1.0,
+    "share_also_with_record_or_reporting_date": 0.6474
+  },
+  "summary": {
+    "sentences": 891,
+    "sentences_with_citations": 891
+  },
+  "idempotency": {
+    "second_run_changes_total": 0,
+    "second_run_companies_with_changes": 0
+  },
+  "runtime_ms_total": 46896,
+  "runtime_ms_p50": 2581,
+  "runtime_ms_p95": 6317,
+  "requests_total": 514,
+  "requests_by_host": {
+    "bigas.no": 2,
+    "data.brreg.no": 422,
+    "dora3.no": 2,
+    "fhr.no": 2,
+    "fredpa.no": 2,
+    "fuhrbygg.no": 2,
+    "hstokke.no": 2,
+    "itis-as.com": 2,
+    "octopusmedical.no": 2,
+    "rka.as": 2,
+    "spoe.no": 2,
+    "wlco.no": 2,
+    "www.borgensenteret.no": 2,
+    "www.brabo.no": 2,
+    "www.dfs.no": 2,
+    "www.espira.no": 2,
+    "www.ferrule-media.no": 2,
+    "www.fjellrosaspa.no": 2,
+    "www.hecem.no": 2,
+    "www.himalayamore.no": 2,
+    "www.holdebakken.no": 2,
+    "www.hovel.no": 2,
+    "www.killi.no": 2,
+    "www.kjellskafe.no": 2,
+    "www.logistea.no": 2,
+    "www.maskinutvikling.no": 2,
+    "www.nautic-sailing.no": 2,
+    "www.norwegianidea.no": 2,
+    "www.oasenmedia.no": 2,
+    "www.ok-ventilasjon.no": 2,
+    "www.omsorgsplan.no": 2,
+    "www.parketteksperten.no": 2,
+    "www.pixelcreation.no": 2,
+    "www.pre-con.no": 2,
+    "www.rissauto.no": 2,
+    "www.rorge.no": 2,
+    "www.selvikbyggeservice.no": 2,
+    "www.skien.bbl.no": 2,
+    "www.spotoninvest.no": 2,
+    "www.sushi-jentene.no": 2,
+    "www.svemo.no": 2,
+    "www.tcpcircular.no": 2,
+    "www.torpene.no": 2,
+    "www.torvtransport1.no": 2,
+    "www.usbl.no": 2,
+    "www.vestbioenergi.no": 2,
+    "www.wodadesign.no": 2
+  },
+  "third_party_cost_usd": 0,
+  "seed": 20260929,
+  "rubric_estimate": {
+    "recall_and_coverage_50": 19.2,
+    "precision_and_evidence_30": 30.0,
+    "synthesis_12": 10.0,
+    "ux_8": 6.5,
+    "total_100": 65.7,
+    "assumptions": [
+      "External recall compared with an assumed pool covering ~50% of companies.",
+      "Precision assumes no wrong-company publication (org number is the key; websites need exact-entity proof).",
+      "UX is our own judgement from the 1280 px and 375 px screenshots.",
+      "In this sandbox company websites are unreachable, so external families score low here; on the open internet they will be higher."
+    ]
+  }
+}

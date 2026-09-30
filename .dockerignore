@@ -1,0 +1,9 @@
+.git
+.venv
+data
+out
+board
+verification
+.hq
+transcript.*
+**/__pycache__
